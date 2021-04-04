@@ -2,6 +2,7 @@ import 'dart:io';
 import 'package:mlapp/classifier.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:mlapp/loading.dart';
 
 class AnswerPage extends StatefulWidget {
   @override
@@ -117,17 +118,6 @@ class _AnswerPageState extends State<AnswerPage> {
         ]),
       );
     }
-    return Scaffold(
-        body: Container(
-            height: MediaQuery.of(context).size.height,
-            width: MediaQuery.of(context).size.width,
-            decoration: BoxDecoration(
-                image: DecorationImage(
-                    image: FileImage(File(_image.path)), fit: BoxFit.cover)),
-            child: Center(
-              child: CircularProgressIndicator(
-                backgroundColor: Colors.pink,
-              ),
-            )));
+    return LoadingScreen();
   }
 }

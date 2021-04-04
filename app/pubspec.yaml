@@ -19,6 +19,7 @@ dependencies:
   flutter_image_compress:
   tflite_flutter:
   tflite_flutter_helper:
+  flutter_spinkit:
 
   cupertino_icons: ^1.0.2
 
@@ -42,6 +43,6 @@ flutter:
 
 
 flutter_icons:
-  android: "launcher_icon"
+  android: true
   ios: true
   image_path: "images/hotdog.jpg"
