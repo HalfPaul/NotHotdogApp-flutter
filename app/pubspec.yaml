@@ -1,0 +1,47 @@
+name: mlapp
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera:
+  path_provider:
+  path:
+  image:
+  image_picker:
+  flutter_image_compress:
+  tflite_flutter:
+  tflite_flutter_helper:
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons:
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/first.jpg
+    - images/second.jpg
+    - images/third.jpg
+    - images/hotdog.jpg
+    - assets/model.tflite
+    - labels/labels.txt
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/hotdog.jpg"
