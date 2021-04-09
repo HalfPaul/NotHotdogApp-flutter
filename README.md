@@ -6,3 +6,6 @@ I got idea for this project from sitcom called Silicon Valley. You can find a cl
 
 ## Training
 Model was trained on custom convolutional model. Training was not a very easy task, because you need to get accurate models, but the model has too be as small as possible.
+
+## Installing
+You can download this app in releases page if you have android phone.
