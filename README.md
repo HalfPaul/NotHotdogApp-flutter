@@ -10,4 +10,7 @@ Model was trained on custom convolutional model. Training was not a very easy ta
 ## Installing
 You can download this app in releases page if you have android phone.
 
-[main](https://github.com/handertolium/NotHotdogApp-flutter/blob/main/img/main_page.jpg)  [prediction](https://github.com/handertolium/NotHotdogApp-flutter/blob/main/img/prediction.jpg)
+<p align="center">
+  <img src="https://github.com/handertolium/NotHotdogApp-flutter/blob/main/img/main_page.jpg" width="350" title="hover text">
+  <img src="https://github.com/handertolium/NotHotdogApp-flutter/blob/main/img/prediction.jpg" width="350" alt="accessibility text">
+</p>
